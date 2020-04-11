@@ -1,0 +1,8 @@
+shutil - to know about the disk usage
+psutil - to know about the cpu percentage
+request - Requests is a Python module that you can use to send all kinds of HTTP requests
+socket - To check whether the local host is correctly configured, we use the socket module
+os - to interact with os using python
+csv - to interact with the csv file
+r - using for regex module
+
