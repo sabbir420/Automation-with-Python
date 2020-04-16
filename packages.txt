@@ -6,3 +6,4 @@ os - to interact with os using python
 csv - to interact with the csv file
 r - using for regex module
 sys - provides information about constants, functions and methods of the Python interpreter.
+subprocess - allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.
