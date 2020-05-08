@@ -1,3 +1,8 @@
-strace | less
+strace | less, ltrace
 ps
 free
+top
+iotop, iostat, vmstat
+ionice
+iftop
+rsync -bwlimit, Trickle
