@@ -6,3 +6,4 @@ iotop, iostat, vmstat
 ionice
 iftop
 rsync -bwlimit, Trickle
+wc, head, tail
