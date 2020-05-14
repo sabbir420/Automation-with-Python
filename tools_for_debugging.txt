@@ -3,8 +3,10 @@ ps
 free
 top
 iotop, iostat, vmstat
-ionice
+ionice,nice, renices
 iftop
 rsync -bwlimit, Trickle
 wc, head, tail
 logrotate
+ab
+pidof
