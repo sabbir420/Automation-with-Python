@@ -10,3 +10,5 @@ wc, head, tail
 logrotate
 ab
 pidof
+time
+profiler, gprof,cProfile, kcachegrind
