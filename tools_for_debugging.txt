@@ -12,3 +12,5 @@ ab
 pidof
 time
 profiler, gprof,cProfile, kcachegrind
+memtest 86
+netstate, ls -lt, head, tail
