@@ -1,4 +1,4 @@
-strace | less, ltrace
+strace | less, ltrace, backtrace
 ps
 free
 top
@@ -14,3 +14,4 @@ time
 profiler, gprof,cProfile, kcachegrind
 memtest 86
 netstate, ls -lt, head, tail
+pdb, valgrind, Dr. memory, ulimit -c, gdb -c
