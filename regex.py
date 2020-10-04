@@ -1,19 +1,17 @@
 #check website url
-
 import re
-def check_web_address(text):
+def check_web_addr(text):
   pattern = r"[A-Za-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[A-Za-z]{2,5}?$"
   result = re.search(pattern, text)
   return result != None
 
-print(check_web_address("gmail.com")) # True
-print(check_web_address("www@google")) # False
-print(check_web_address("www.Coursera.org")) # True
-print(check_web_address("web-address.com/homepage")) # False
-print(check_web_address("My_Favorite-Blog.US")) # True
+print(check_web_addr("gmail.com")) # True
+print(check_web_addr("www@google")) # False
+print(check_web_addr("www.Coursera.org")) # True
+print(check_web_addr("web-address.com/homepage")) # False
+print(check_web_addr("My_Favorite-Blog.US")) # True
 
 #Matching time format
-
 import re
 def check_time(text):
   pattern = r"^([1-9]|1[0-2]){1,2}:([0-5]|[7-9]|[1-4][0-9]|5[0-9]|[ ]){2}[a-zA-Z][ampmAMPM]"
@@ -27,7 +25,6 @@ print(check_time("6:60am")) # False
 print(check_time("five o'clock")) # False
 
 #matching acronym 
-
 import re
 def contains_acronym(text):
   pattern = r"\(.*?\)"

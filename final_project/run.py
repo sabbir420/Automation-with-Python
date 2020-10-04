@@ -29,7 +29,7 @@ for keys in feed_list:
 	keys["weight"] = int(keys["weight"])
 
 #feed data to the website
-url = "http://localhost/fruits/"
+url = "http://127.0.0.1/fruits/"
 for i in range(len(feed_list)):
 	response =  requests.post(url, json=feed_list[i])
 	response.raise_for_status()
