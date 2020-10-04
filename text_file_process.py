@@ -12,8 +12,8 @@ folder = os.listdir(path)
 for file in folder:
     keycount = 0
     fb = {}
-    with open(path + file) as fl:
-        for line in fl:
+    with open(path + file) as pf:
+        for line in pf:
             value = line.strip()
             fb[keys[keycount]] = value
             keycount += 1
